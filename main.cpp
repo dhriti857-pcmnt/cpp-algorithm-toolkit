@@ -60,7 +60,7 @@ void selectionSort(vector<int>& arr) {
     }
 }
 
-void display(vector<int> arr) {
+void display(const vector<int>& arr) {
     for (int x : arr)
         cout << x << " ";
     cout << endl;
