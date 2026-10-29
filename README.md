@@ -18,3 +18,24 @@ All listed test cases passed during manual testing.
 - Add insertion sort and merge sort.
 - Compare the execution times of different algorithms.
 - Add automated test cases.
+## Sample Run
+
+**Input**
+```text
+Enter number of elements: 5
+Enter array elements: 8 3 10 1 6
+```
+
+**Operation: Bubble Sort**
+```text
+Sorted using Bubble Sort: 1 3 6 8 10
+```
+
+**Operation: Exit**
+```text
+Exiting toolkit.
+```
+
+## Learning Outcomes
+
+Through this project, I practiced implementing searching and sorting algorithms, using C++ vectors and functions, and understanding algorithm time complexity.
