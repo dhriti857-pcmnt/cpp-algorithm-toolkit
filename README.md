@@ -1,41 +1,61 @@
-# cpp-algorithm-toolkit
-A beginner-friendly C++ toolkit implementing searching and sorting algorithms with time complexity analysis
+# C++ Algorithm Toolkit
+
+A menu-driven C++ project that demonstrates fundamental searching and sorting algorithms.
+
+## Features
+
+- Linear Search
+- Binary Search on a sorted copy of the input array
+- Bubble Sort
+- Selection Sort
+- Interactive menu for choosing operations
+- Array display and basic input validation
+
+## Technologies Used
+
+- C++
+- Standard Template Library (STL)
+- Vectors and functions
+
+## Algorithm Complexity
+
+| Algorithm | Time Complexity |
+|---|---|
+| Linear Search | O(n) |
+| Binary Search | O(log n) |
+| Bubble Sort | O(n²) |
+| Selection Sort | O(n²) |
+
+**Note:** The Binary Search option sorts a copy of the input array first, using `std::sort`. Therefore, the complete operation takes O(n log n) time.
+
+## How to Compile and Run
+
+Compile with a C++11-compatible compiler:
+
+`g++ -std=c++11 main.cpp -o toolkit`
+
+Run on macOS or Linux:
+
+`./toolkit`
+
 ## Testing
 
-The program was tested with the following cases:
+The program was manually tested with:
 
-- Searching for an element present in the array.
-- Searching for an element absent from the array.
-- Binary search on an unsorted input array (the program sorts a copy first).
-- Sorting an array using Bubble Sort and Selection Sort.
-- Displaying the array after sorting.
-- Handling a single-element array, negative numbers, and an invalid array size.
-
-All listed test cases passed during manual testing.
-
-## Future Improvements
-
-- Add insertion sort and merge sort.
-- Compare the execution times of different algorithms.
-- Add automated test cases.
-## Sample Run
-
-**Input**
-```text
-Enter number of elements: 5
-Enter array elements: 8 3 10 1 6
-```
-
-**Operation: Bubble Sort**
-```text
-Sorted using Bubble Sort: 1 3 6 8 10
-```
-
-**Operation: Exit**
-```text
-Exiting toolkit.
-```
+- Successful and unsuccessful searches
+- Both sorting algorithms
+- Binary search on unsorted input
+- Single-element arrays
+- Negative numbers
+- Invalid array size
 
 ## Learning Outcomes
 
-Through this project, I practiced implementing searching and sorting algorithms, using C++ vectors and functions, and understanding algorithm time complexity.
+This project helped me practice implementing searching and sorting algorithms, working with C++ vectors and functions, and understanding algorithmic time complexity.
+
+## Future Improvements
+
+- Implement additional sorting algorithms.
+- Compare algorithm performance on larger arrays.
+- Add automated tests.
+
