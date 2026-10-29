@@ -5,7 +5,7 @@
 using namespace std;
 
 // Linear Search: O(n)
-int linearSearch(vector<int> arr, int key) {
+int linearSearch(const vector<int>& arr, int key) {
     for (int i = 0; i < arr.size(); i++) {
         if (arr[i] == key)
             return i;
@@ -15,7 +15,7 @@ int linearSearch(vector<int> arr, int key) {
 
 // Binary Search: O(log n)
 // Array must be sorted.
-int binarySearch(vector<int> arr, int key) {
+int binarySearch(const vector<int>& arr, int key) {
     int low = 0, high = arr.size() - 1;
 
     while (low <= high) {
